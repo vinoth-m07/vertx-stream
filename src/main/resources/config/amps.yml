@@ -1,0 +1,18 @@
+# Basic AMPS configuration
+version: 1
+
+transports:
+  - name: tcp
+    port: 9007
+    protocol: tcp
+    interface: 0.0.0.0
+
+authentication:
+  - name: default
+    module: default
+
+topics:
+  - name: /.*
+    publish: allow
+    subscribe: allow
+    sow: allow

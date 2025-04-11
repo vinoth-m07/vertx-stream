@@ -1,0 +1,9 @@
+{
+  "amps": {
+    "serverUrl": "tcp://localhost:9007",
+    "topics": ["sample-topic"],
+    "clientNamePrefix": "vertx-amps",
+    "timeout": 10000,
+    "reconnectDelay": 5000
+  }
+}
